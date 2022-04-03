@@ -6,7 +6,7 @@ const AddtoCart = () =>{
         <div>
             <Header></Header>
             <div>
-
+            
             </div>
             <Footer></Footer>
         </div>
