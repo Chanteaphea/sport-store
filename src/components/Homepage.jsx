@@ -7,33 +7,39 @@ import Paymentservice from "../includes/Paymentservice";
 import Popularitem from "../includes/Popularitem";
 import Promotion from "../includes/Promotion";
 import Service from "../includes/Service";
-
+import './../styles/customer_category.css'
+import banner from './../images/Banner/bkcover.jpg'
 const Homepage = ()=>{
     return(
         <div>
             <Header></Header>
-            <div>
-                <div>
+            {/* customer categories */}
+            <div className="customer-category__div-1">
+                <div className="customer-category__div-2 customer-category-1-p">
                     <p>បុរស</p>
                 </div>
-                <div>
+                <div className="customer-category__div-3 customer-category-1-p">
                     <p>នារី</p>
                 </div>
-                <div>
+                <div className="customer-category__div-4 customer-category-1-p">
                     <p>ក្មេង</p>
                 </div>
-                <div>
+                <div className="customer-category__div-5 customer-category-1-p">
                     <p>សម្ភារ:</p>
                 </div>
-                <div>
+                <div className="customer-category__div-6 customer-category-1-p">
                     <p>លាងឃ្លាំង</p>
                 </div>
             </div>
-            <div>
-                <img src="" alt="image" />
+            {/* body section */}
+            <div className="customer-category__div-7">
+            <div className="customer-category__div-8">
+                <img src={banner} alt="image" />
             </div>
-            <div>
-                <h2>ក្លឹបបាល់ទាត់លីគកំពូល</h2>
+            <div className="customer-category__div-9">
+                <div className="customer-category__div-10">
+                    <h2>ក្លឹបបាល់ទាត់លីគកំពូល</h2>
+                </div>
             </div>
             <League></League>
             <div>
@@ -65,6 +71,7 @@ const Homepage = ()=>{
                     </div>
                     <Paymentservice></Paymentservice>
                 </div>
+            </div>
             </div>
             <Footer></Footer>
             

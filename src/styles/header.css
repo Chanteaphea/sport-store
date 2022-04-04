@@ -1,0 +1,88 @@
+.div-header{
+    width:100%;
+    background-color: #00aaff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.div-1 img{
+    width:60px;
+}
+.div-1{
+    width:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-2{
+    width:35%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.div-2 input{
+    
+    width:60%;
+    height: 50px;
+    border:1px solid #c9c9c9;
+    border-radius: 5px 0px 0px 5px;
+}
+.div-2 input:hover{
+    border:2px solid #ff1454;
+    border-right: 0px;
+}
+
+
+
+.div-2 input:focus{
+    outline:none;
+}
+.div-icon{
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #ff1454;
+    height: 50px;
+    
+}
+.div-icon .icon{
+    background-color: #ff1454;
+    padding: 19px;
+    
+    border-radius: 0px 5px 5px 0px;
+}
+
+.div-icon .icon:hover{
+    background-color: white;
+    color: #ff1454;
+}
+
+.icon{
+    color:white;
+}
+.div-3 .icon{
+    font-size: 20px;
+}
+.div-3 .icon:hover{
+    color: #ff1454;
+}
+.div-4 .icon{
+    font-size: 20px;
+}
+.div-4 .icon:hover{
+    color:#ff1454;
+}
+.div-3{
+    display: flex;
+    width:20%;
+    align-items: center;
+    justify-content: center;
+
+}
+.div-4{
+    display: flex;
+    width:20%;
+    align-items: center;
+    justify-content: start;
+}

@@ -1,20 +1,23 @@
+import './../styles/header.css'
+import logo from './../images/logo.png';
+import {FaBitbucket, FaSearch, FaShoppingBag, FaUser, FaWallet} from 'react-icons/fa'
 const Header = () =>{
     return(
-        <div>
-            <div>
-                <img src="" alt="logo" />
+        <div className="div-header">
+            <div className="div-1">
+                <img src={logo} alt="logo" />
             </div>
-            <div>
+            <div className="div-2">
                 <input type="text" placeholder="ស្វែងរក..." />
-                <div>
-                <img src="" alt="search" />
+                <div className='div-icon'>
+                <FaSearch className='icon'></FaSearch>
                 </div>
             </div>
-            <div>
-                <img src="" alt="icon" />
+            <div className='div-3'>
+                <FaUser className="icon"></FaUser>
             </div>
-            <div>
-                <img src="" alt="icon" />
+            <div className='div-4'>
+                <FaShoppingBag className='icon'></FaShoppingBag>
             </div>
         </div>
     )
