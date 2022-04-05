@@ -1,0 +1,17 @@
+.promotion-div-1{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.promotion-div-2 img , .promotion-div-3 img{
+    width:100%;
+    
+}
+.promotion-div-2 , .promotion-div-3{
+    
+    width: 50%;
+    margin: 10px 10px;
+}

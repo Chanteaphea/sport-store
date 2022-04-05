@@ -67,25 +67,31 @@ const Homepage = ()=>{
             <div className="customer-category__div-7">
             <Promotion></Promotion>
             <div className="share-item__div-1">
-                <div className="share-item__div-2">
+                <div className="share-item__div-2 share-item__div-2-small">
                 <h2>ប្រ៊េន</h2>
                 </div>
             </div>
             <Brand></Brand>
-            <div>
-                <div>
-                    <div>
+            
+            <div className = "homepage-div-1">
+                <div className="homepage-div-2">
+                <div className="share-item__div-1">
+                    <div className="share-item__div-2 share-item__div-2-small">
                         <h2>សេវាកម្មដឹកជញ្ជូន</h2>
                     </div>
-                    <Service></Service>
                 </div>
-                <div>
-                    <div>
+                <Service></Service>
+                </div>
+                <div className="homepage-div-3">
+                <div className="share-item__div-1">
+                    <div className="share-item__div-2 share-item__div-2-small">
                         <h2>សេវាកម្មបង់ប្រាក់</h2>
                     </div>
-                    <Paymentservice></Paymentservice>
+                    
                 </div>
-            </div>
+                <Paymentservice></Paymentservice>
+                </div>
+                </div>
             </div>
             <Footer></Footer>
             

@@ -16,3 +16,26 @@
     font-size: 32px;
     
 }
+.share-item__div-2-small h2{
+    width: fit-content;
+    color: #85d6ff;
+    font-size: 24px;
+    
+    
+}
+.share-item__div-2-small{
+    margin-bottom: 30px;
+}
+.homepage-div-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.homepage-div-2, .homepage-div-3{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

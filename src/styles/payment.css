@@ -1,0 +1,14 @@
+.payment-div-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment-div img{
+    width:50%;
+}
+.payment-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20%
+}

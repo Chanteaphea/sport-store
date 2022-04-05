@@ -1,0 +1,19 @@
+.brand-div-1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto ;
+   
+    
+}
+.brand-div-2 img , .brand-div-3 img, .brand-div-4 img, .brand-div-5 img{
+    width: 50%;
+}
+.brand-div-2 , .brand-div-3 , .brand-div-4, .brand-div-5{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

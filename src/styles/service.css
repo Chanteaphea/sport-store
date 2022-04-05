@@ -1,0 +1,15 @@
+.service-div-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.service-div-2 ,.service-div-3, .service-div-4, .service-div-5{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-div-2 img,.service-div-3 img, .service-div-4 img, .service-div-5 img{
+    width: 50%;
+}
