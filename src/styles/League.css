@@ -1,4 +1,5 @@
-.league-div-2{
+.league-div-2, .league-div-4{
+    margin-bottom: 30px;
     width:60%;
     display: flex;
     align-items: center;
@@ -11,9 +12,14 @@
     justify-content: center;
     align-items: center;
 }
-.league-div-3{
+.league-div-3,.league-div-5{
     width: 25%;
 }
-.league-div-3 img{
+.league-div-3 img, .league-div-5 img{
     width:100px;
+}
+.league-div-5 , .league-div-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

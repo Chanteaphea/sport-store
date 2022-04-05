@@ -1,0 +1,11 @@
+.body-section__div-1 img{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.body-section__div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

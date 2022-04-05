@@ -9,6 +9,10 @@ import Promotion from "../includes/Promotion";
 import Service from "../includes/Service";
 import './../styles/customer_category.css'
 import banner from './../images/Banner/bkcover.jpg'
+import './../styles/popularitem.css'
+import './../styles/sharetitle.css'
+import './../styles/bodysection.css'
+import banner2 from './../images/Banner/Banner.png'
 const Homepage = ()=>{
     return(
         <div>
@@ -36,26 +40,36 @@ const Homepage = ()=>{
             <div className="customer-category__div-8">
                 <img src={banner} alt="image" />
             </div>
-            <div className="customer-category__div-9">
-                <div className="customer-category__div-10">
+            <div className="share-item__div-1">
+                <div className="share-item__div-2">
                     <h2>ក្លឹបបាល់ទាត់លីគកំពូល</h2>
                 </div>
             </div>
             <League></League>
-            <div>
-                <h2>សម្ភារ:ពេញនិយម</h2>
+            <div class="share-item__div-1">
+                <div class="share-item__div-2">
+                <h2 >សម្ភារ:ពេញនិយម</h2>
+                </div>
+                
             </div>
             <Popularitem></Popularitem>
-            <div>
+            <div className="share-item__div-1">
+                <div className="share-item__div-2">
                 <h2>សម្ភារ:ថ្មីៗ</h2>
+                </div>
+                
             </div>
             <Newitem></Newitem>
-            <div>
-                <img src="" alt="banner" />
             </div>
+            <div className="body-section__div-1">
+                <img src={banner2} alt="banner" />
+            </div>
+            <div className="customer-category__div-7">
             <Promotion></Promotion>
-            <div>
+            <div className="share-item__div-1">
+                <div className="share-item__div-2">
                 <h2>ប្រ៊េន</h2>
+                </div>
             </div>
             <Brand></Brand>
             <div>

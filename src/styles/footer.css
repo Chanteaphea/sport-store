@@ -1,0 +1,136 @@
+.footer-div-2{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+   
+    
+    margin: 0 auto;
+}
+.footer-div-1{
+    background-color: #ff1454;
+    height: 220px;
+    display: flex;
+    
+    align-items:flex-end;
+}
+
+.footer-div-4{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+.footer-div-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-div-8{
+    width:2px;
+    height: 150px;
+    background-color: white;
+    
+}
+.footer-div-7{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.footer-div-9{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-div-20 p {
+    width: fit-content;
+    color:white;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 12px;
+
+}
+.footer-div-20{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-div-5 img{
+    width:80px;
+}
+.footer-div-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-div-6 p{
+    width:fit-content;
+    margin: 0;
+    padding:0;
+    color: white;
+    font-size: 12px;
+}
+.footer-div-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div-9{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.footer-div-10{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom:5px; 
+   
+}
+.footer-div-11-icon{
+    color:white;
+    padding: 0 20px 0 0;
+}
+.footer-div-12 p{
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.footer-div-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-div-13{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+.footer-div-14-icon{
+    color:white;
+    padding: 0 20px 0 0;
+}
+.footer-div-15 p{
+    color: white;
+    font-size: 12px;
+}
+.footer-div-17-icon{
+    color: white;
+    padding: 0 20px 0 0;
+}
+.footer-div-16{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.footer-div-18 p{
+    color: white;
+    font-size: 12px;
+}

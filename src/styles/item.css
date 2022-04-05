@@ -1,0 +1,38 @@
+.item-div-1{
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.item-div-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-div-2 img{
+    width: 200px;
+    border: 1px solid black;
+}
+.item-div-3 p, .item-div-4 p{
+    padding:0;
+    margin: 0;
+}
+.item-div-3{
+    
+    margin: 5px 0;
+}
+.item-div-3 p{
+    font-weight: bold;
+}
+.item-div-4 p{
+    font-size: 14px;
+    color:grey;
+}
+.item-star{
+    font-size: 12px;
+    margin: 0 1px;
+    color: gold;
+}
+.item-star-highlighted{
+    color:grey;
+}

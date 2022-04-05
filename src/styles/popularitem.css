@@ -1,0 +1,9 @@
+
+.popular-item__div-3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin: 0 auto;
+}
