@@ -4,6 +4,7 @@ import { FaStar } from 'react-icons/fa';
 const Item = () =>{
     return(
         <div className='item-div-1'>
+            <a href="#">
             <div className='item-div-2'>
                 <img src={item} alt="item1" />
             </div>
@@ -20,6 +21,7 @@ const Item = () =>{
                 <FaStar className='item-star'></FaStar>
                 <FaStar className='item-star item-star-highlighted'></FaStar>
             </div>
+            </a>
         </div>
     )
 }

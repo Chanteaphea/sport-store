@@ -20,19 +20,29 @@ const Homepage = ()=>{
             {/* customer categories */}
             <div className="customer-category__div-1">
                 <div className="customer-category__div-2 customer-category-1-p">
+                    <a href="#">
                     <p>បុរស</p>
+                    </a>
                 </div>
                 <div className="customer-category__div-3 customer-category-1-p">
+                    <a href="#">
                     <p>នារី</p>
+                    </a>
                 </div>
                 <div className="customer-category__div-4 customer-category-1-p">
+                    <a href="#">
                     <p>ក្មេង</p>
+                    </a>
                 </div>
                 <div className="customer-category__div-5 customer-category-1-p">
+                    <a href="#">
                     <p>សម្ភារ:</p>
+                    </a>
                 </div>
                 <div className="customer-category__div-6 customer-category-1-p">
+                    <a href="#">
                     <p>លាងឃ្លាំង</p>
+                    </a>
                 </div>
             </div>
             {/* body section */}

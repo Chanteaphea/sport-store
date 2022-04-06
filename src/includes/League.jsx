@@ -13,32 +13,52 @@ const League = () =>{
         <div className='league-div-1'>
         <div className='league-div-2'>
             
+            <a href="#" className='league-div-2'>
             <div className='league-div-3'>
                 <img src={AEU} alt="league"></img>
             </div>
+            </a>
+            <a href="#" className='league-div-2'>
             <div className='league-div-3'>
                 <a href="#"><img src={Army} alt="league"></img></a>
             </div>
+            </a>
+            <a href="#" className='league-div-2'>
             <div className='league-div-3'>
                 <img src={ATG} alt="league"></img>
             </div>
+            </a>
+            <a href="#" className='league-div-2'>
             <div className='league-div-3'>
                 <img src={BK} alt="league"></img>
             </div>
+            </a>
         </div>
         <div className='league-div-4'>
-        <div className='league-div-5'>
+            <a href="#" className='league-div-4'>
+            <div className='league-div-5'>
                 <img src={EDC} alt="league"></img>
             </div>
+            </a>
+            <a href="#" className='league-div-4'>
             <div className='league-div-5'>
                 <img src={KSSC} alt="league"></img>
             </div>
+            </a>
+            <a href="#" className='league-div-4'>
             <div className='league-div-5'>
                 <img src={NAGA} alt="league"></img>
             </div>
+            </a>
+            <a href="#" className='league-div-4'>
             <div className='league-div-5'>
                 <img src={POLICE} alt="league"></img>
             </div>
+            </a>
+        
+            
+            
+            
         </div>
         </div>
     )
